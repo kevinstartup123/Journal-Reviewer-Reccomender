@@ -1,0 +1,62 @@
+{% load static tailwind_tags %}
+
+<html>
+<head>
+    <title>CRM</title>
+    {% tailwind_css %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="bg-[#fffcfc] flex items-center justify-center min-h-screen">
+    <div class="w-[1253px] h-[748px] bg-[#969696] rounded-[15px] flex">
+        <!-- Bagian Kiri - Gambar -->
+        <img class="w-[567px] h-[697px] m-8 rounded-[15px]" src="https://lppm.umus.ac.id/wp-content/uploads/2023/05/20134681_6242692-scaled.jpg">
+
+        <!-- Bagian Kanan - Form Sign In -->
+        <div class="flex flex-col justify-center items-start ml-16">
+            <h1 class="text-white text-5xl font-['Inika'] mb-4">Sign In</h1>
+            <p class="text-white text-[15px] font-['Inika'] mb-6">Sign in if you already have an account</p>
+
+            <!-- Email Input -->
+            <label for="email" class="text-white text-[15px] font-['Inika']">Email*</label>
+            <input id="email" type="email" placeholder="example@gmail.com" class="w-[455px] h-[50px] bg-[#d9d9d9] rounded-[10px] mt-2 p-4 text-[#a8a0a0]">
+
+            <!-- Password Input -->
+            <label for="password" class="text-white text-[15px] font-['Inika'] mt-4">Password*</label>
+            <input id="password" type="password" class="w-[455px] h-[50px] bg-[#d9d9d9] rounded-[10px] mt-2 p-4 text-[#a8a0a0]">
+
+            <!-- Remember me & Forgot password -->
+            <div class="flex justify-between items-center w-[455px] mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" class="w-[15px] h-[15px] bg-[#d9d9d9] rounded-[5px]">
+                    <label class="text-white text-[15px] font-['Inika'] ml-2">Remember me</label>
+                </div>
+                <a href="#" class="text-[#6741ea] text-[15px] font-['Inika'] underline">Forgot password</a>
+            </div>
+
+            <!-- Sign In Button -->
+            <button class="w-[455px] h-[50px] bg-[#d07624] rounded-[10px] mt-6 text-white font-['Inika']">Sign In</button>
+
+            <!-- Or sign in with -->
+            <!-- <div class="flex justify-center items-center w-[455px] mt-6">
+                <div class="w-[157px] h-[0px] border border-black"></div>
+                <p class="text-white text-[15px] font-['Inika'] mx-4">Or sign in with</p>
+                <div class="w-[157px] h-[0px] border border-black"></div>
+            </div> -->
+
+            <!-- Buttons for other sign-in methods -->
+            <!-- <button class="w-[455px] h-[50px] bg-[#d9d9d9] rounded-[10px] mt-6"></button> -->
+
+            <!-- Create Account -->
+            <p class="text-white text-[15px] font-['Inika'] mt-8">Don’t have an account? 
+                <a href="{% url 'signup' %}" class="text-[#6f4ee2] underline">Create Account</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
