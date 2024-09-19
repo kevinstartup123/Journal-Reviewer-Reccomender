@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{% static "css/globals.css" %}" />
+        <link rel="stylesheet" href="{% static "css/signin.css" %}" />
+        <script src="{% static 'js/signin.js' %}" defer></script>
+    </head>
+    <body>
+        <div class="sign-in">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <img class="element" src="{% static "img/pexels-jessbaileydesign-802649.png" %}" />
+                    <div class="group">
+                        <div class="text-wrapper">Sign In</div>
+                        <p class="div">Sign in if you already have an account</p>
+                    </div>
+                    <p class="don-t-have-an">
+                        <span class="span">Don’t have an account? </span> <a href="/signup" class="text-wrapper-2">Create Account</a>
+                    </p>
+                    <button class="sign-in-button">Sign In</button>
+                    <div class="text-wrapper-4">Remember me</div>
+                    <a href="/index" class="text-wrapper-5">Forgot password</a>
+                    <div class="text-wrapper-6">Or sign in with</div>
+                    <div class="text-wrapper-8">Email*</div>
+                    <input type="email" name="email" class="input rectangle-5 email-field" placeholder="Enter your email" />
+                    <div class="text-wrapper-9">Password*</div>
+                    <input type="password" name="password" class="input rectangle-5 password-field" placeholder="Enter your password" />
+                    <input type="checkbox" name="terms" class="checkbox" />
+                    <img class="line" src="{% static "img/Line 3.svg" %}" />
+                    <img class="img" src="{% static "img/Line 4.svg" %}" />
+                    <div class="text-wrapper-9">Password*</div>
+                    <div class="group-wrapper"><img class="group-2" src="{% static "img/Group 21.png" %}" /></div>
+                    <div class="element-apple-icon-wrapper">
+                        <img class="element-apple-icon" src="{% static "img/104490_apple_icon 1.png" %}" />
+                    </div>
+                    <div class="overlap-2">
+                        <div class="rectangle-3"></div>
+                        <img class="element-logo-google" src="{% static "img/7123025_logo_google_g_icon 1.png" %}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
