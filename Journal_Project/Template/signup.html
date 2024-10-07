@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{% static "css/globals.css" %}" />
+        <link rel="stylesheet" href="{% static "css/signup.css" %}" />
+        <script src="{% static 'js/signup.js' %}" defer></script>
+    </head>
+    <body>
+        <div class="frame">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="group">
+                        <div class="text-wrapper">Create an account</div>
+                        <p class="already-have-an">
+                            <span class="span">Already have an account? </span> 
+                            <!-- Login Link -->
+                             <p class="already-have-an">
+                                <span class="span">Already have an account? </span> 
+                                <a href=/signin class="text-wrapper-2">Login</a>
+                            </p>
+                        </p>
+                    </div>
+                    <img class="pexels" src="{% static "img/pexels-jessbaileydesign-802649.png" %}" />
+                    <!-- First Name Field -->
+                     <div class="text-wrapper-3">First Name*</div>
+                     <input type="text" name="first_name" class="input rectangle-3 first-name" placeholder="Enter your first name" />
+                     <!-- Last Name Field -->
+                      <div class="text-wrapper-4">Last Name*</div>
+                      <input type="text" name="last_name" class="input rectangle-3 last-name" placeholder="Enter your last name" />
+                      
+                      <!-- Email Field -->
+                     <div class="text-wrapper-5">Email*</div>
+                     <input type="email" name="email" class="input rectangle-5 email-field" placeholder="Enter your email" />
+
+                    <!-- Password Field -->
+                     <div class="text-wrapper-6">Password*</div>
+                     <input type="password" name="password" class="input rectangle-5 password-field" placeholder="Enter your password" />
+
+
+                    <!-- Confirm Password Field -->
+                    <div class="text-wrapper-7">Confirm Password*</div>
+                    <input type="password" name="confirm_password" class="input rectangle-5 confirm-field" placeholder="Confirm your password" />
+
+                    <!-- Create Account Button -->
+                     <button type="submit" class="create-account-button">Create Account</button>
+
+
+                    <p class="i-agree-to-the-terms">
+                        <span class="span">I agree to the </span> 
+                        <span class="text-wrapper-9">Terms &amp; Conditions</span>
+                    </p>
+
+                    <div class="text-wrapper-10">Or register with</div>
+                    <!-- Checkbox for "I agree to the Terms & Conditions" -->
+                     <input type="checkbox" name="terms" class="checkbox" />
+                     <p class="i-agree-to-the-terms">
+                        <p class="i-agree-to-the-terms">
+                            <span class="span">I agree to the </span> 
+                            <a href="/terms" class="text-wrapper-9">Terms & Conditions</a>
+                        </p>
+                    </p>
+
+                    <img class="line" src="{% static "img/Line 3.svg" %}" />
+                    <img class="img" src="{% static "img/Line 4.svg" %}" />
+                    
+                    <!-- Social Media Buttons -->
+                    <div class="group-wrapper">
+                        <img class="group-2" src="{% static "img/Group 21.png" %}" />
+                    </div>
+                    <div class="element-apple-icon-wrapper">
+                        <img class="element-apple-icon" src="{% static "img/104490_apple_icon 1.png" %}" />
+                    </div>
+                    <div class="overlap-2">
+                        <div class="rectangle-6"></div>
+                        <img class="element-logo-google" src="{% static "img/7123025_logo_google_g_icon 1.png" %}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

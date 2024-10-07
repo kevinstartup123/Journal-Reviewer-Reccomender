@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{% static "css/globals.css" %}" />
+        <link rel="stylesheet" href="{% static "css/submit.css" %}" />
+        <script src="{% static 'js/submit.js' %}" defer></script>
+    </head>
+    <body>
+        <div class="journal-submission">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="group"><div class="text-wrapper">Journal Submission Form</div></div>
+                    <button class="save-continue-button">Save &amp; Continue</button>
+                    <p class="i-agree-to-the-terms">
+                        <span class="span">I agree to the </span> <span class="text-wrapper-2">Terms &amp; Conditions</span>
+                    </p>
+                    <div class="div-wrapper">
+                      <input type="text" class="div" placeholder="Your name">
+                    </div>                  
+                    <div class="overlap-2">
+                      <input type="text" class="journal-title-field" placeholder="Journal Title" />
+                    </div>                  
+                    <textarea class="journal-text-field" placeholder="Abstract..."></textarea>
+                    <div class="journal-submission">
+                      <label class="text-wrapper-3" for="date-picker"></label>
+                      <input type="date" id="date-picker" class="date-picker" placeholder="Select a date" />
+                    </div>                                   
+                    <input type="checkbox" name="terms" class="checkbox" />
+                     <p class="i-agree-to-the-terms">
+                        <p class="i-agree-to-the-terms">
+                            <span class="span">I agree to the </span> 
+                            <a href="/terms" class="text-wrapper-9">Terms & Conditions</a>
+                        </p>                
+                    <img class="element" src="{% static "img/pexels-jessbaileydesign-802649.png" %}" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

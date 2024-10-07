@@ -1,0 +1,362 @@
+.sign-in {
+  background-color: #fffcfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-in .overlap-group-wrapper {
+  background-color: #fffcfc;
+  width: 1440px;
+  height: 1024px;
+}
+
+.sign-in .overlap-group {
+  position: relative;
+  width: 1253px;
+  height: 748px;
+  top: 138px;
+  left: 94px;
+  background-color: #969696;
+  border-radius: 15px;
+}
+
+.sign-in .element {
+  position: absolute;
+  width: 567px;
+  height: 697px;
+  top: 25px;
+  left: 28px;
+}
+
+.sign-in .group {
+  position: absolute;
+  width: 269px;
+  height: 83px;
+  top: 102px;
+  left: 797px;
+}
+
+.sign-in .text-wrapper {
+  top: 0;
+  left: 53px;
+  font-size: 48px;
+  position: absolute;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .div {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .don-t-have-an {
+  position: absolute;
+  top: 584px;
+  left: 788px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .span {
+  color: #ffffff;
+}
+
+.sign-in .text-wrapper-2 {
+  color: #6f4ee2;
+  text-decoration: underline;
+}
+
+.sign-in-button {
+  position: absolute;
+  width: 455px;
+  height: 50px;
+  top: 422px;
+  left: 694px;
+  background-color: #d07624;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-button:hover {
+  background-color: #b8661e; /* Warna lebih gelap saat hover */
+}
+
+
+.sign-in .text-wrapper-3 {
+  top: 13px;
+  left: 200px;
+  font-size: 16px;
+  position: absolute;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .text-wrapper-4 {
+  position: absolute;
+  top: 376px;
+  left: 717px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .text-wrapper-5 {
+  position: absolute;
+  top: 376px;
+  left: 1033px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #6741ea;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.sign-in .text-wrapper-6 {
+  position: absolute;
+  top: 486px;
+  left: 870px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .div-wrapper {
+  position: absolute;
+  width: 455px;
+  height: 50px;
+  top: 243px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.sign-in .text-wrapper-7 {
+  position: absolute;
+  width: 154px;
+  top: 14px;
+  left: 22px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #a8a0a0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.sign-in .rectangle {
+  position: absolute;
+  width: 455px;
+  height: 50px;
+  top: 317px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.sign-in .rectangle-5.password-field {
+  position: absolute;
+  width: 455px;
+  height: 50px;
+  top: 317px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.sign-in .rectangle-5.email-field {
+  position: absolute;
+  width: 455px;
+  height: 50px;
+  top: 242px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+}
+
+.sign-in .rectangle-2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 376px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+}
+
+.sign-in .line {
+  left: 694px;
+  position: absolute;
+  width: 157px;
+  height: 1px;
+  top: 494px;
+  object-fit: cover;
+}
+
+.sign-in .img {
+  left: 992px;
+  position: absolute;
+  width: 157px;
+  height: 1px;
+  top: 494px;
+  object-fit: cover;
+}
+
+.sign-in .text-wrapper-8 {
+  position: absolute;
+  width: 68px;
+  top: 222px;
+  left: 694px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-in .text-wrapper-9 {
+  position: absolute;
+  width: 81px;
+  top: 297px;
+  left: 694px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-in .group-wrapper {
+  position: absolute;
+  width: 60px;
+  height: 54px;
+  top: 517px;
+  left: 826px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.sign-in .group-2 {
+  position: absolute;
+  width: 39px;
+  height: 40px;
+  top: 7px;
+  left: 10px;
+}
+
+.sign-in .element-apple-icon-wrapper {
+  position: absolute;
+  width: 60px;
+  height: 54px;
+  top: 517px;
+  left: 891px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.sign-in .element-apple-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 5px;
+  object-fit: cover;
+}
+
+.sign-in .overlap-2 {
+  position: absolute;
+  width: 63px;
+  height: 68px;
+  top: 510px;
+  left: 954px;
+}
+
+.sign-in .rectangle-3 {
+  position: absolute;
+  width: 60px;
+  height: 54px;
+  top: 7px;
+  left: 2px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.sign-in .element-logo-google {
+  position: absolute;
+  width: 63px;
+  height: 68px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+input::placeholder {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #888888;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border: none; /* Menghilangkan border */
+  background-color: #d9d9d9; /* Background default untuk input */
+  border-radius: 10px; /* Sesuaikan dengan border-radius yang diinginkan */
+}
+
+/* Gaya saat input fields aktif (focus) */
+input:focus {
+  outline: none; /* Menghilangkan outline default */
+  border: none; /* Menghilangkan border pada saat fokus */
+  background-color: #d9d9d9; /* Background tetap sama saat fokus */
+}
+
+.sign-in .checkbox {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 374px;
+  left: 694px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+}

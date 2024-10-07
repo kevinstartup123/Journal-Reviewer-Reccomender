@@ -1,0 +1,398 @@
+.landing {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.landing .group {
+  position: absolute;
+  width: 1269px;
+  height: 48px;
+  top: 33px;
+  left: 60px;
+}
+
+.landing .group-2 {
+  position: relative;
+  width: 1277px;
+  height: 48px;
+}
+
+.landing .text-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 624px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-3 {
+  position: absolute;
+  top: 11px;
+  left: 769px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-4 {
+  position: absolute;
+  top: 12px;
+  left: 1057px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-4:hover {
+  color: #d31b1b; /* Warna saat hover */
+  text-decoration: underline; /* Jika ingin underline saat hover */
+}
+
+.landing .overlap-group-wrapper {
+  position: absolute;
+  width: 115px;
+  height: 48px;
+  top: 0;
+  left: 1156px;
+}
+
+.landing .overlap-group {
+  position: relative;
+  width: 113px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.landing .rectangle {
+  position: absolute;
+  width: 113px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background-color: transparent; /* Agar background tetap transparan */
+  cursor: pointer; /* Menambahkan kursor pointer untuk tombol */
+}
+
+.landing .text-wrapper-5 {
+  position: absolute;
+  top: 12px;
+  left: 35px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* Efek Hover */
+.landing .rectangle:hover {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.landing .rectangle:hover .text-wrapper-5 {
+  color: #ffffff;
+}
+
+/* Efek Active (Saat diklik) */
+.landing .rectangle:active {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.landing .rectangle:active .text-wrapper-5 {
+  color: #ffffff;
+}
+
+.landing .overlap {
+  position: absolute;
+  width: 1380px;
+  height: 734px;
+  top: 235px;
+  left: 60px;
+}
+
+.landing .overlap-2 {
+  position: absolute;
+  width: 1380px;
+  height: 734px;
+  top: 0;
+  left: 0;
+}
+
+.landing .overlap-3 {
+  position: absolute;
+  width: 1219px;
+  height: 734px;
+  top: 0;
+  left: 161px;
+}
+
+.landing .pexels {
+  position: absolute;
+  width: 680px;
+  height: 734px;
+  top: 0;
+  left: 539px;
+  object-fit: cover;
+}
+
+.landing .ellipse {
+  top: 15px;
+  left: 1087px;
+  background-color: #636363;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+}
+
+.landing .ellipse-2 {
+  top: 15px;
+  left: 1115px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+}
+
+.landing .lorem-ipsum-is {
+  position: absolute;
+  width: 561px;
+  top: 163px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+}
+
+.landing .element-journals {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 612px;
+  left: 684px;
+}
+
+.landing .element-k-STAR-REVIEW {
+  position: absolute;
+  width: 144px;
+  height: 43px;
+  top: 610px;
+  left: 964px;
+}
+
+.landing .text-wrapper-6 {
+  position: absolute;
+  top: 668px;
+  left: 692px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing .text-wrapper-7 {
+  position: absolute;
+  top: 668px;
+  left: 971px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing .text-wrapper-8 {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .p {
+  position: absolute;
+  top: 75px;
+  left: 217px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing .line {
+  position: absolute;
+  width: 570px;
+  height: 1px;
+  top: 155px;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing .overlap-4 {
+  position: absolute;
+  width: 323px;
+  height: 323px;
+  top: 392px;
+  left: 0;
+  background-size: 100% 100%;
+}
+
+.landing .element-members {
+  position: absolute;
+  top: 100px;
+  left: 36px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 10.1px;
+}
+
+.landing .span {
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 73.1px;
+}
+
+.landing .text-wrapper-9 {
+  font-size: 38px;
+  line-height: 47.9px;
+}
+
+.landing .arrow {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 240px;
+  left: 240px;
+}
+
+.landing .star {
+  position: absolute;
+  width: 54px;
+  height: 53px;
+  top: 44px;
+  left: 42px;
+}
+
+.landing .ellipse-3 {
+  top: 0;
+  left: 254px;
+  background-color: #636363;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+}
+
+.landing .ellipse-4 {
+  left: 282px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+}
+
+.landing .overlap-5 {
+  position: absolute;
+  width: 323px;
+  height: 323px;
+  top: 392px;
+  left: 351px;
+  background-size: 100% 100%;
+}
+
+.landing .element-support {
+  position: absolute;
+  top: 100px;
+  left: 36px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 10.1px;
+}
+
+.landing .exclude {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  top: 47px;
+  left: 47px;
+}
+
+.landing .text-wrapper-10 {
+  position: absolute;
+  top: 187px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
